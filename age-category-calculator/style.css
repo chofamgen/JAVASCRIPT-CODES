@@ -7,7 +7,9 @@ body{
     background-position: center;
     aspect-ratio: 16/9;
 }
-
+h1{
+    color: #CE8446;
+}
 .main{
     width:50vw;
     border-radius: 100px;
