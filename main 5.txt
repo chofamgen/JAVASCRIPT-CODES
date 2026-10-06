@@ -1,0 +1,40 @@
+(A) you're going to be asking student for their grade 
+from 70-100 display A
+from 60-69 display B
+from 50-59 display C
+from 40-49 display D
+from 30-39 display E
+from 20-29 display F
+
+
+
+(B) create a small program that calculatte the total cost of something the user wants to buy
+task as for the product name, price and quantity
+display that you bought 3 bags of rice 
+price per bag
+total cost 
+
+
+
+(C)AGE CATEGORY ✅✅
+ask the user for their age and tell them the category they belong to 
+0-12 child
+13-17 teenager
+18-59 Adult 
+60-above = senior citizen 
+
+
+
+(D) ELECTTRIITY BILL CALCULATOR
+ask the user for their name 
+number of units of electricity used 
+price per unit
+calculate the total bill (formulae= units used * price per unit)
+
+
+
+(E) mini ATM starting balance =50,000
+ask the user how much they want to withdraw
+if the withdrawal is greater than the balance print out (insufficient funds )
+if the withdrawal is less than or equals to the balance subtract it from the balance and show the remaining balance 
+if they enter 0 or a negative amount invalid withdrawal amount

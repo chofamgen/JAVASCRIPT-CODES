@@ -1,0 +1,607 @@
+Exercise 1 — Personal Introduction
+
+Write a program that asks a user for:
+
+Their name
+Their age
+Their favorite color
+
+The program should then display a sentence such as:
+
+Hello David, you are 20 years old and your favorite color is blue.
+
+Goal
+
+Practice:
+
+Variables
+prompt()
+Combining values
+Basic output
+Hint
+
+Think about each piece of information as something that needs to be stored in a variable.
+
+Exercise 2 — Simple Calculator
+
+Ask the user to enter two numbers.
+
+Calculate and display:
+
+Sum
+Difference
+Product
+Quotient
+
+Example:
+
+First number: 20
+Second number: 5
+
+Sum: 25
+Difference: 15
+Product: 100
+Quotient: 4
+Hint
+
+You will need the four basic arithmetic operators.
+
+Bonus: Ask the student to investigate why prompt() causes problems when performing arithmetic with the input.
+
+Exercise 3 — Even or Odd
+
+Ask the user to enter a number.
+
+Determine whether the number is:
+
+Even
+Odd
+
+Example:
+
+Enter a number: 17
+
+17 is odd.
+Hint
+
+Ask yourself:
+
+What happens when a number is divided by 2?
+
+You will probably need the remainder operator %.
+
+Exercise 4 — Student Grade Checker
+
+Ask a student to enter their score.
+
+Use the following grading system:
+
+Score Grade
+70–100 A
+60–69 B
+50–59 C
+45–49 D
+40–44 E
+Below 40 F
+
+Display the appropriate grade.
+
+Example
+Enter your score: 73
+
+Your grade is A.
+Hint
+
+Think carefully about the order of your conditions.
+
+Also consider:
+
+What should happen if someone enters 150 or -20?
+
+Exercise 5 — Login Validator
+
+Create a simple login program.
+
+The correct username is:
+
+admin
+
+The correct password is:
+
+12345
+
+Ask the user for their username and password.
+
+Display:
+
+"Login successful" if both are correct.
+"Incorrect username or password" otherwise.
+Challenge
+
+Modify the program so that it gives a more specific message:
+
+Wrong username
+Wrong password
+Both are wrong
+Both are correct
+Hint
+
+This is your first serious opportunity to use the logical && operator.
+
+Ask yourself:
+
+Do both conditions need to be true?
+
+Exercise 6 — Electricity Bill Calculator
+
+Create a program that asks a customer for the number of electricity units they consumed.
+
+Use these rates:
+
+Units Price
+0–100 ₦50 per unit
+101–200 ₦75 per unit
+Above 200 ₦100 per unit
+
+Calculate and display the customer's bill.
+
+Example
+Units consumed: 150
+
+Your electricity bill is ₦...
+Important Challenge
+
+Don't just calculate the price of all units using the highest rate.
+
+Think about how the units are divided into ranges.
+
+For example, if someone uses 250 units:
+
+First 100 units → one rate
+Next 100 → another rate
+Remaining 50 → another rate
+
+This introduces an important programming skill:
+
+Breaking a real-world problem into smaller calculations.
+
+Exercise 7 — Number Guessing Game
+
+Create a program where the computer has a secret number.
+
+For example:
+
+let secretNumber = 7;
+
+Ask the user to guess the number.
+
+Tell them:
+
+"Correct!" if they guess correctly.
+"Too high!" if their guess is greater.
+"Too low!" if their guess is smaller.
+Extension
+
+Give the user 3 attempts to guess the number.
+
+If they fail after three attempts:
+
+Game over!
+The number was 7.
+Hint
+
+You now need to combine:
+
+loop + condition + comparison
+
+Think about which loop makes the most sense.
+
+Exercise 8 — Multiplication Table Generator
+
+Ask the user to enter a number.
+
+Generate its multiplication table from 1 to 12.
+
+Example:
+
+Enter a number: 7
+
+7 × 1 = 7
+7 × 2 = 14
+7 × 3 = 21
+...
+7 × 12 = 84
+Requirements
+
+You must use a for loop.
+
+Extension
+
+Allow the user to choose the starting and ending values.
+
+For example:
+
+Number: 8
+Start: 5
+End: 15
+
+The program should produce:
+
+8 × 5 = 40
+...
+8 × 15 = 120
+Exercise 9 — Student Performance Analyzer
+
+Ask the user how many students they want to enter.
+
+For each student, ask for their score.
+
+The program should determine:
+
+The number of students who passed
+The number who failed
+The number who scored an A
+The number who scored a B
+The number who scored a C
+The number who scored below 50
+Example
+
+If 5 students enter:
+
+75
+62
+48
+35
+81
+
+The program should eventually report something similar to:
+Students: 5
+Passed: 3
+Failed: 2
+A grades: 2
+B grades: 1
+C grades: 0
+Below 50: 2
+Hint
+
+You will need variables that keep track of counts.
+
+For example, imagine a variable whose value changes:
+
+0 → 1 → 2 → 3
+
+Every time something happens, you update the variable.
+
+This is where assignment operators such as += become useful.
+
+Exercise 10 — ATM Simulation
+
+Build a simple ATM program.
+
+The starting balance is:
+
+₦100,000
+
+The user should be able to repeatedly choose an option:
+
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+The program should continue running until the user chooses Exit.
+
+Rules
+
+For withdrawal:
+
+The amount must be greater than 0.
+The user cannot withdraw more than their balance.
+If the withdrawal is successful, subtract it from the balance.
+
+For deposit:
+
+The amount must be greater than 0.
+Add the amount to the balance.
+Example
+Welcome to David Bank
+
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+Choose an option: 3
+
+Amount: 20000
+
+Withdrawal successful.
+
+Remaining balance: ₦80000
+Hint
+
+Ask yourself:
+
+Do I know exactly how many times the user will interact with the ATM?
+
+If you don't, which loop would make sense?
+
+Also think about the difference between:
+
+"run at least once"
+
+and
+
+"run while a condition remains true."
+
+Exercise 11 — The Student Result Management Challenge 🔥
+
+Now things get serious.
+
+Build a program that allows a teacher to process the results of multiple students.
+
+First ask:
+
+How many students do you want to enter?
+
+For each student, ask for:
+
+Student name
+Mathematics score
+English score
+Computer Science score
+
+For each student, calculate:
+
+Total score
+Average score
+Grade
+Pass/fail status
+Grade system
+Average Grade
+70+ A
+60–69 B
+50–59 C
+45–49 D
+40–44 E
+Below 40 F
+
+But there's more.
+
+At the end, the program must display:
+
+===== CLASS REPORT =====
+
+Number of students: 6
+Students passed: 5
+Students failed: 1
+
+Highest average: ...
+Lowest average: ...
+Class average: ...
+
+Number of A students: ...
+Number of B students: ...
+Number of C students: ...
+Number of D students: ...
+Number of E students: ...
+Number of F students: ...
+Rules
+
+A student passes only if:
+
+Their average is at least 40 AND they did not score below 30 in any subject.
+
+So a student with:
+
+Math: 80
+English: 75
+Computer: 20
+
+should not pass, even though their average might be above 40.
+
+Hints
+
+Don't try to build everything at once.
+
+Break the problem into questions:
+
+How do I collect information for one student?
+How do I calculate their total?
+How do I calculate their average?
+How do I determine their grade?
+How do I determine whether they passed?
+How do I repeat this for multiple students?
+How do I keep track of the highest average?
+How do I keep track of the lowest average?
+How do I calculate the class average?
+How do I count each grade?
+
+Important: At this stage, students should begin thinking about the program as a collection of smaller problems rather than one giant problem.
+
+Exercise 12 — The Ultimate Challenge: Mini Banking System 🔥🔥
+
+This is the final challenge.
+
+You are going to build a small console banking system.
+
+The bank starts with:
+
+Balance: ₦100,000
+
+The program should repeatedly display:
+
+===== BANKING SYSTEM =====
+
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. Transaction Summary
+6. Exit
+
+The user should be able to perform transactions until they choose Exit.
+
+Requirement 1 — Check Balance
+
+Display the current balance.
+
+Requirement 2 — Deposit
+
+Ask for the amount to deposit.
+
+Reject:
+
+Zero
+Negative numbers
+
+Otherwise, add the money to the balance.
+
+Requirement 3 — Withdrawal
+
+Ask for an amount.
+
+Reject the withdrawal if:
+
+Amount is zero or negative.
+Amount is greater than the balance.
+
+Otherwise, subtract it from the balance.
+
+Requirement 4 — Transfer
+
+Ask:
+
+Enter recipient name:
+Enter amount:
+
+The transfer should only succeed if:
+
+The amount is greater than 0.
+The amount does not exceed the balance.
+
+After a successful transfer:
+
+Transfer successful.
+
+Recipient: John
+Amount: ₦20000
+Remaining balance: ₦80000
+Requirement 5 — Transaction Summary
+
+The program should keep track of:
+Number of deposits
+Number of withdrawals
+Number of transfers
+Total amount deposited
+Total amount withdrawn
+Total amount transferred
+
+Then display something like:
+
+===== TRANSACTION SUMMARY =====
+
+Deposits: 4
+Withdrawals: 3
+Transfers: 2
+
+Total deposited: ₦150000
+Total withdrawn: ₦70000
+Total transferred: ₦40000
+
+Current balance: ₦140000
+Requirement 6 — Security Challenge
+
+Give the user a PIN.
+
+For example:
+
+Correct PIN: 1234
+
+Before accessing the banking system, ask for the PIN.
+
+The user gets 3 attempts.
+
+If they enter the wrong PIN three times:
+
+Account locked.
+
+The banking system should not be accessible.
+
+Requirement 7 — Input Validation
+
+Your program should not simply assume the user behaves correctly.
+
+What should happen if they enter:
+
+-5000
+
+for a deposit?
+
+What if they enter:
+
+0
+
+for a withdrawal?
+
+What if they choose:
+
+9
+
+when only options 1–6 exist?
+
+What if they attempt to transfer more money than they have?
+
+Your program should handle these situations.
+
+Requirement 8 — Exit
+
+When the user selects Exit:
+
+Thank you for using our banking system.
+
+Final balance: ₦...
+
+The program should stop.
+
+💡 Hints for Exercise 12
+
+Don't write the whole program in one sitting.
+
+Think in layers:
+
+Layer 1
+
+Can you make the menu appear?
+
+Layer 2
+
+Can you make the menu repeat?
+
+Layer 3
+
+Can you make each menu option perform an action?
+
+Layer 4
+
+Can you make the balance change correctly?
+
+Layer 5
+
+Can you prevent invalid transactions?
+
+Layer 6
+
+Can you keep track of transaction statistics?
+
+Layer 7
+
+Can you add the PIN system?
+
+The real challenge isn't writing 200 lines of JavaScript.
+
+The real challenge is being able to look at the problem and say:
+
+"I know how to break this problem down."
+
+That is the skill these 12 exercises are designed to develop.
