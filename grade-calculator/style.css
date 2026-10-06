@@ -89,11 +89,12 @@ h1{
         margin: 2rem auto;
         border-radius: 32px;
         padding: 1.5rem 1rem;
+        text-align: center;
     }
     
     #user_input, 
     #result {
-        width: 100%;
+        width: 80%;
         max-width: none;
     }
 }
