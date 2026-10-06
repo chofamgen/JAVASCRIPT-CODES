@@ -14,7 +14,7 @@ else if(age >= 13 && age <= 17){
         result.textContent = "You are a mini adult 👨🏼‍🎓";
 }
 else if(age >= 18 && age <= 59){
-        result.textContent="You are an adult ";
+        result.textContent="You are an adult 🤷";
 }
 else if(age >=60 && age <=100){
     result.textContent="You are a senior citizen 🤧";
