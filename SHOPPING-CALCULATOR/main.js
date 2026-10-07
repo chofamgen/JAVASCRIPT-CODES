@@ -1,6 +1,6 @@
 let itemsArray = [];
 
-const itemInput = document.getElementById('user-Input');
+const itemInput = document.getElementById('user-input');
 const addBtn = document.getElementById('add-item');
 const stopBtn = document.getElementById('show-total');
 const outputDisplay = document.getElementById('output');
