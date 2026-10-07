@@ -1,4 +1,4 @@
-(A) you're going to be asking student for their grade 
+(A) you're going to be asking student for their grade  ✅✅✅✅
 from 70-100 display A
 from 60-69 display B
 from 50-59 display C
@@ -9,7 +9,7 @@ from 20-29 display F
 
 
 (B) create a small program that calculatte the total cost of something the user wants to buy
-task as for the product name, price and quantity
+ask for the product name, price and quantity
 display that you bought 3 bags of rice 
 price per bag
 total cost 

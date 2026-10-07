@@ -48,24 +48,36 @@
 
 // console.log("you are all caugth up");
 
-var savedpassword=123456
-var savedUserName=jude;
-var check=false
 
-do {
-    var inputname=prompt("put ya name")
-    var password=prompt("put ya password")
 
-    if(inputname ==savedUserName && password==savedpassword)
-    {
-        console.log("access granted");
-        check=true
-        }
-    else{
-        console.log("access denied");
+// var savedpassword=123456
+// var savedUserName=jude;
+// var check=false
+
+// do {
+//     var inputname=prompt("put ya name")
+//     var password=prompt("put ya password")
+
+//     if(inputname ==savedUserName && password==savedpassword)
+//     {
+//         console.log("access granted");
+//         check=true
+//         }
+//     else{
+//         console.log("access denied");
         
-    }
+//     }
 
-} while (check == false);
+// } while (check == false);
 
-console("i lik cats")
+// console("i lik cats")
+
+
+// 7TH OCTOBER
+// ARRAY IS A WAY TO STORE AND RETRIEVE DATA
+
+var fruit=["1","2","3","4","hey"]
+
+for(var num = 0; num <5; num++ ){
+    console.log(fruit[num])
+}
