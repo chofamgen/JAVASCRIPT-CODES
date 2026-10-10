@@ -76,8 +76,56 @@
 // 7TH OCTOBER
 // ARRAY IS A WAY TO STORE AND RETRIEVE DATA
 
-var fruit=["1","2","3","4","hey"]
+// var fruit=["1","2","3","4","hey"]
 
-for(var num = 0; num <5; num++ ){
-    console.log(fruit[num])
+// for(var num = 0; num <5; num++ ){
+//     console.log(fruit[num])
+// }
+
+
+
+
+// 9TH OCTOBER
+
+// var names=["david",36,null,undefined,["working", "hard"]]
+// var names="john",["prosper","emmanuel",[35,54,"Grace"]]]
+// console.log(names[1][2][1])
+
+// we dealed on array method
+// Push,Pop
+// shift and shift
+
+// var fruit=["orange"]
+// fruit.push("mango","apple","carrot")
+// fruit.unshift("pawpaw")
+
+// fruit.includes("orange")
+// console.log(fruit.includes("mango"));
+
+// var names=["john","grace"]
+// var age=[12,14,45,3,4,5,7,678]
+
+// for (var index = 0; index< 8; index++) {
+//     console.log(names[index]+" dey "+"age: "+age[index]);
+    
+// }
+
+// MOVING TO OBJECT
+
+var student1={
+    name: "jude",
+    age:4636,
+    dept:"compu1ter science",
+    faculty:"computing"
 }
+
+var student2={
+    name: "grace",
+    age:18,
+    dept:"computer science",
+    faculty:"computing"
+}
+
+console.log(student1);
+
+
