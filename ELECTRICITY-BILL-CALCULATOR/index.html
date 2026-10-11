@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,38 @@
 
     <meta property="og:title" content="Electricity bill calculator">
     <meta property="og:description" content="An engaging calculator to check clients bill">
-    <meta property="og:image" content="https://shopping-calculator-muah.pages.dev/images/sell.jpeg">
-    <meta property="og:url" content="https://shopping-calculator-muah.pages.dev/">
+    <meta property="og:image" content="https://bill-calculator-by-lumyn.pages.dev/images/sell.jpeg">
+    <meta property="og:url" content="https://bill-calculator-by-lumyn.pages.dev/">
     <meta property="og:type" content="website">
 
     <meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+    <meta property="og:image:height" content="630" />
 
-<h1>hello</h1>
 
 </head>
+
 <body>
-    
+
+
+    <div class="container">
+        <h1>BILL CALCULATOR</h1>
+        <p>1 unit equals ₦200</p>
+
+        <input type="text" id="user_name" placeholder="client name e.g ngozi">
+        <input type="number" id="unit_used" placeholder=" unit used e.g 1">
+        <button id="print-btn">print receipt</button>
+
+        <div id="output"> 
+            <h1>Bill Processed✅</h1>
+            <p1> USER NAME    = <span id="pop_name"></span></p1>
+            <p1>UNIT CONSUMED = <span id="pop_amount"></span>KW</p1>
+            <p1> TOTAL AMOUNT = ₦<span id="pop_total"></span>🤧</p1>
+           
+        </div>
+    </div>
+
+   <script src="./main.js"></script>
+
 </body>
+
 </html>
