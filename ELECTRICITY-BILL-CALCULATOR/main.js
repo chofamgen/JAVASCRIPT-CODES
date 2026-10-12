@@ -27,9 +27,9 @@ print_btn.addEventListener('click', function()
     
      output.classList.add('show');
 
-    //  setTimeout(() => {
-    //     output.classList.remove('show')
-    //  }, 6000);
+     setTimeout(() => {
+        output.classList.remove('show')
+     }, 4000);
 
 }
 );
